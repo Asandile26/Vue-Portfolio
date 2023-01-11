@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        
+       <ContactVue /> 
     </div>
 </template>
  <script>
