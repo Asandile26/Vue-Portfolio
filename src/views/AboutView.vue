@@ -1,8 +1,9 @@
 <template>
   <div class="about">
+    <h1>ABOUT</h1>
     <div class="intro">
           <div>
-            <p id="about-p1">Hello I'm</p>
+            <p id="about-p1">Hello I am Asandile Langeni</p>
                         <p class="mt-4 " id="about-p">I am a 27 years aspiring web Developer, I am all about breaking boundaries in order to create something new. Coding excites me because the world is becoming more technological and coding provides me with the Skills to usher people to the right direction whether it is using apps or data mining. <br>
                         D.O.B   : 95-10-13 <br>
                         Location : Cape Town, Khayelitsha <br>

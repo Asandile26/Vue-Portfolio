@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+    <ProjectsVue/>
     </div>
 </template>
 <script>

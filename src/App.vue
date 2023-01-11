@@ -45,5 +45,7 @@ footer{
   bottom: 0;
   color: white;
 }
-
+h1{
+  color: white;
+}
 </style>

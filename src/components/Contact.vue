@@ -1,6 +1,6 @@
 <template lang="">
-    <div>
-    
+    <div class="Contact">
+    <h1>CONTACT</h1>
 <form action="https://formspree.io/f/mgebedqd" method="post">
     <div class="mb-3 text-center">
     <input type="text" class="form-control" id="exampleInputName1" name="Name" aria-describedby="nameHelp" placeholder="Enter your name" required v-model="name">
