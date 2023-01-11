@@ -46,6 +46,6 @@ footer{
   color: white;
 }
 h1{
-  color: white;
+  color:white;
 }
 </style>

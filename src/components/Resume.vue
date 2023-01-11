@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>RESUME</h1>
+        <h1></h1>
     </div>
 </template>
 <script>
@@ -13,31 +13,35 @@ export default {
 //             {year: 2014,
 //              name: "J.S Skenjana S.S.S",
 //              duration: "2012-2014",
-//              duties: "Matric",
+//              Qualifications: "Matric",
 //             },
 //             {year: 2015,
 //              name: "University of the Western Cape",
 //              duration: "2015-2020",
-//              duties: "Graduate"
+//              Qualifications: "Bachelor of Commerce"
 //             },
-//             {year: 2018,
-//              name: "Levi's",
-//              duration: "6 months",
-//              duties: "Sales person"
-//             },
-//             {year: 2019,
-//              name: "IkamvaYouth",
-//              duration: "6 months",
-//              duties: "Tutor"
-//             },
-//             {year: 2021,
-//              name: "ACDC Dynamics",
-//              duration: "10 months",
-//              duties: "Picker / Packer"
-//             }
+//                 ],
+//  Work experience: [
+//                 {year: 2018,
+//                  name: "Levi's",
+//                  duration: "6 months",
+//                  duties: "Sales person"
+//                 },
+//                 {year: 2019,
+//                  name: "IkamvaYouth",
+//                  duration: "6 months",
+//                  duties: "Tutor"
+//                 },
+//                 {year: 2021,
+//                  name: "ACDC Dynamics",
+//                  duration: "10 months",
+//                  duties: "Picker / Packer"
+//                 }
+    
+//             ]
+//         }
 
-//         ]
-//     }
+
 
 </script>
 <style>

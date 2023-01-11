@@ -28,7 +28,7 @@
       </footer>
     </div>
 </template>
- <script>
+<script>
 export default {
     name: 'Contact',
     data() {
@@ -40,17 +40,17 @@ export default {
         }
     },
     methods: {
-    handleSubmit (e) {
-      e.preventDefault()
-      alert(`Name: ${this.name}, Surname: ${this.surname}, Email: ${this.email}, Message: ${this.message}`)
+        handleSubmit(e) {
+            e.preventDefault()
+            alert(`Name: ${this.name}, Surname: ${this.surname}, Email: ${this.email}, Message: ${this.message}`)
+        }
     }
-}
 }
 </script>
 <style>
-form{
+form {
     justify-content: center;
     width: 35rem;
     margin: auto;
-}  
+}
 </style>
