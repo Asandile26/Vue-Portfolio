@@ -22,7 +22,7 @@ export default{
   text-align: center;
   color: #2c3e50;
   background-color: #2c3e50;
-  height: 100vh;
+  height: 170vh;
 }
 
 nav {
@@ -45,7 +45,8 @@ footer{
   bottom: 0;
   color: white;
 }
-h1{
+h1, h2{
   color:white;
 }
+
 </style>

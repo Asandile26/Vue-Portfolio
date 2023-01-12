@@ -1,6 +1,6 @@
 <template>
     <div>
-      <ResumeVue/>
+      <Resume/>
     </div>
 </template>
  <script>

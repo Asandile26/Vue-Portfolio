@@ -9,18 +9,17 @@
                         Location : Cape Town, Khayelitsha <br>
                         Email     : asandilelangeni@gmail.com <br>
                         Phone     : 067 6555 678 </p>
-            </div>
-          <div class="img">
-            <img src="https://i.postimg.cc/bJPWBS18/t381-LPkw-400x400.jpg" alt="profile img">
+                      </div>
+                      <div class="img">
+                        <img src="https://i.postimg.cc/bJPWBS18/t381-LPkw-400x400.jpg" alt="profile img">
+                      </div>
           </div>
-        </div>
   </div>
 </template>
 <style scoped>
 .intro{
   display: flex;
   color:white;
-  height: 100vh;
   justify-content: center;
   align-items: center;
 }

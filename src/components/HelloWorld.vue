@@ -1,8 +1,7 @@
 <template>
   <div class="home">
-    <div class="col">
-            <img src="https://i.postimg.cc/bJPWBS18/t381-LPkw-400x400.jpg" alt="profile img">
-          </div>
+    <h1>ASANDILE LANGENI</h1>
+    <p>HELLO WORLD</p>
   </div>
 </template>
 
