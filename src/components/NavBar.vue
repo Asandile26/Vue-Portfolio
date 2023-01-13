@@ -1,6 +1,6 @@
 <template>
     <div>
-  <nav class="navbar shadow-sm">
+  <nav class="navbar shadow-sm d-flex">
           <div class="container">
             <a class="navbar-brand text-black fw-bold fs-4" href="#">
               <img class="logo" src="https://i.postimg.cc/7L9z7BNt/a.gif" alt="">
@@ -32,5 +32,6 @@ export default {
 <style scooped>
 .logo {
     height: 10vh;
+    width: 3em;
 }
 </style>

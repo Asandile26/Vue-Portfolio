@@ -3,11 +3,11 @@
         <h1>PROJECTS</h1>
         <div class="projects">
             <div class="card" style="width: 18rem;" v-for="pro in Projects" :key="pro">
-          ``<img :src="pro.image" class="card-img-top" alt="photo">
+          <img :src="pro.image" class="card-img-top" alt="photo" style="height: 25vh">
           <div class="card-body">
             <h5 class="card-title">{{pro.title}}</h5>
-            <a v-bind:href=pro.githubLink><button class="btn btn-primary" type="button">Github</button></a>
-            <a v-bind:href=pro.netlifyLink><button class="btn btn-primary" type="button">Netlify</button></a>
+            <a v-bind:href=pro.githubLink target="_blank_"><button class="btn btn-primary btn1" type="button">Github</button></a>
+            <a v-bind:href=pro.netlifyLink target="_blank_"><button class="btn btn-primary btn2" type="button">Netlify</button></a>
           </div>
         </div>
         </div>
@@ -74,7 +74,7 @@ data() {
     justify-content: center;
     align-content: center;
 } 
-.btn{
+.btn1, btn2{
     margin: 0 10px;
 } 
 </style>
