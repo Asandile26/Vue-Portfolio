@@ -1,25 +1,28 @@
 <template lang="">
-    <div class="Contact">
+    <div class="Container-fluid">
     <h1>CONTACT</h1>
-    <div class="form container">
-        <form action="https://formspree.io/f/mgebedqd" method="post">
-            <div class="mb-3 text-center">
-            <input type="text" class="form-control" id="exampleInputName1" name="Name" aria-describedby="nameHelp" placeholder="Enter your name" required v-model="name">
-            </div>
-            <div class="mb-3 text-align-center">
-            <input type="text" class="form-control" id="exampleInputSurname1" name="Surname" aria-describedby="emailHelp" placeholder="Enter your surname" required v-modal="surname">
-            <div id="emailHelp" class="form-text"></div>
-            </div>
-            <div class="mb-3 text-align-center">
-            <input type="email" class="form-control" id="exampleInputEmail1" name="Email" placeholder="Enter your email" required v-modal="Email">
-            <div id="messagedHelp" class="form-text"></div>
-            </div>
-            <div class="form-floating mb-4">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Comments</label>
-            </div>
-            <input type="submit" id="submit" placeholder="Submit" v-on:click.prevent="handleSubmit">
+    <div class="container1-fluid">
+        <form class="form container" action="https://formspree.io/f/mgebedqd" method="post">
+                <div class="mb-3 text-center">
+                <input type="text" class="form-control" id="exampleInputName1" name="Name" aria-describedby="nameHelp" placeholder="Enter your name" required v-model="name">
+                </div>
+                <div class="mb-3 text-align-center">
+                <input type="text" class="form-control" id="exampleInputSurname1" name="Surname" aria-describedby="emailHelp" placeholder="Enter your surname" required v-modal="surname">
+                <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3 text-align-center">
+                <input type="email" class="form-control" id="exampleInputEmail1" name="Email" placeholder="Enter your email" required v-modal="Email">
+                <div id="messagedHelp" class="form-text"></div>
+                </div>
+                <div class="mb-4">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+                </div>
+                <input type="submit" id="submit" placeholder="Submit" v-on:click.prevent="handleSubmit">
+ 
+           
         </form>
+    </div>
     </div>
 <footer>
           <p><i class="bi bi-phone text-light"></i>0676555678</p>
@@ -28,7 +31,6 @@
           <a href="https://www.linkedin.com/in/asandile-langeni-05b027201/" target="_blank"><i class="fab fa-linkedin-in"></i><i class="bi bi-linkedin"></i></a>
           <a href="https://github.com/Asandile26"><i class="bi bi-github"></i></a>
       </footer>
-    </div>
 </template>
 <script>
 export default {
@@ -50,10 +52,17 @@ export default {
 }
 </script>
 <style>
+/* input{
+    width: 100%;
+} */
+.container1{
+    width: 35rem;
+}
 form {
     justify-content: center;
-    width: 35rem;
+    /* width: 35rem; */
     margin:auto;
+    width: 100%;
     
 }
 .form{
@@ -61,5 +70,17 @@ form {
     padding: 4rem;
     margin:0, 30rem;
     border-radius: 5px;
+    width: 45rem;
+}
+
+@media screen and (max-width: 574px) {
+    .form{
+        width: 28rem;
+    }
+}
+@media screen and (max-width: 461px) {
+    .form{
+        width: 24rem;
+    }
 }
 </style>

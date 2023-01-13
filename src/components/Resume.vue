@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>EDUCATION</h2>
-        <table class="table">
+        <table class="table table-dark">
   <thead>
     <tr>
       <th scope="col">Year</th>
@@ -18,7 +18,7 @@
   </tbody>
 </table>
     <h2>WORK EXPERIENCE</h2>
-    <table class="table">
+    <table class="table table-dark">
   <thead>
     <tr>
       <th scope="col">Year</th>
@@ -86,5 +86,7 @@ data() {
 
 </script>
 <style>
-    
+thead{
+  border-bottom: 5px white solid;
+}  
 </style>

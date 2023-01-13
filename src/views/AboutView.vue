@@ -22,6 +22,7 @@
   color:white;
   justify-content: center;
   align-items: center;
+  /* flex-direction: column; */
 }
 .intro > div{
   width: 50%;
