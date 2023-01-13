@@ -1,14 +1,16 @@
 <template>
     <div>
         <h1>PROJECTS</h1>
-        <div class="card" style="width: 18rem;">
-  ``<img src="" class="card-img-top" alt="">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+        <div class="projects">
+            <div class="card" style="width: 18rem;" v-for="pro in Projects" :key="pro">
+          ``<img :src="pro.image" class="card-img-top" alt="photo">
+          <div class="card-body">
+            <h5 class="card-title">{{pro.title}}</h5>
+            <a v-bind:href=pro.githubLink><button class="btn btn-primary" type="button">Github</button></a>
+            <a v-bind:href=pro.netlifyLink><button class="btn btn-primary" type="button">Netlify</button></a>
+          </div>
+        </div>
+        </div>
     </div>
 </template>
 <script>
@@ -19,7 +21,7 @@ data() {
             Projects:[
                 {
                 id:0,
-                image: '',
+                image: 'https://i.postimg.cc/8crNQjRf/portfolio.png',
                 title: 'Portfolio (HTML & CSS)',
                 githubLink: 'https://github.com/Asandile26/portfolio2.git',
                 netlifyLink: 'https://portfolioasandilelangeni.netlify.app'
@@ -27,14 +29,14 @@ data() {
                 {
                 id:1,
                 title: 'E-Commerce',
-                image: '',
+                image: 'https://i.postimg.cc/tTD0JLkg/Ecommerce.png',
                 githubLink: 'https://github.com/Asandile26/Ecommerce.git',
                 netlifyLink: 'https://asandilelangeniecommerce.netlify.app'
                 },
                 {
                 id:2,
                 title: 'E-Commerce (Javascript)',
-                image: '',
+                image: 'https://i.postimg.cc/VkXv0Hb0/JS-Ecommerce.png',
                 githubLink: 'https://github.com/Asandile26/Project-E-commerce.git',
                 netlifyLink: 'https://asandilelangeni-ecommerce.netlify.app'
                 },
@@ -43,27 +45,36 @@ data() {
                 title: 'Spinner',
                 image: '',
                 githubLink: 'https://github.com/Asandile26/spinner2.0.git',
-                netlifyLink: 'spinnertwo.netlify.app'
+                netlifyLink: 'https://spinnertwo.netlify.app'
                 },
                 {
                 id:4,
                 title: 'Calculator',
-                image: '',
+                image: 'https://i.postimg.cc/TP9PCL0R/calculator.png',
                 githubLink: 'https://github.com/Asandile26/calculator.git',
                 netlifyLink: 'https://asandilelangenicalculator.netlify.app'
                 },
                 {
                 id:5,
                 title: 'Revision',
-                image: '',
-                githubLink: 'https://scouzerrevison.netlify.app',
-                netlifyLink: 'https://github.com/Asandile26/Revision.git'
+                image: 'https://i.postimg.cc/tJ0rXDQg/Screenshot-2022-11-05-095815.png',
+                githubLink: 'https://github.com/Asandile26/Revision.git',
+                netlifyLink: 'https://scouzerrevison.netlify.app'
                 }
             ]
         }
     }
 }
 </script>
-<style>
-    
+<style scoped>
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    align-content: center;
+} 
+.btn{
+    margin: 0 10px;
+} 
 </style>

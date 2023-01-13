@@ -60,7 +60,9 @@ export default {
 .testy{
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 7rem;
+  justify-content: center;
+  align-content: center;
 }
 .card-img-top {
   height: 12rem;
