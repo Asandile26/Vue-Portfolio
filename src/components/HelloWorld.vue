@@ -30,6 +30,10 @@ p{
 }
 h1, p{
   box-shadow: 20px 30px 40px 11px rgb(28, 28, 86);
+  justify-content: center;
+  align-content: center;
+  
+   
 }
 @media screen and (max-width: 460px){
 .home {
@@ -37,6 +41,14 @@ h1, p{
     /* display: flex; */
     font-size: medium;
   }
+h1, p{
+  box-shadow: none;
+  font-weight: bold;
+  text-shadow: 2.5px 2.5px 2.5px grey;
+  justify-content: center;
+  align-content: center;
+  margin-right: 10rem;
+}
 }
 
 </style>

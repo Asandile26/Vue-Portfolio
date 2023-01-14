@@ -6,11 +6,11 @@
               <img class="logo" src="https://i.postimg.cc/7L9z7BNt/a.gif" alt="">
             </a>
             <div class="dropdown">
-              <button class="btn btn-secondary btn-light px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="btn btn-secondary btn-light px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="drop">
                   <span class="navbar-toggler-icon"></span>
               <i class="fas fa-bars"></i>
               </button>
-              <ul class="dropdown-menu ">
+              <ul class="dropdown-menu" id="menu">
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
                 <li><router-link to="/resume">Resume</router-link></li>
@@ -34,4 +34,7 @@ export default {
     height: 10vh;
     width: 3em;
 }
+
+
+
 </style>

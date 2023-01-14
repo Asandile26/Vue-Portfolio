@@ -29,7 +29,7 @@ export default{
   text-align: center;
   color: #2c3e50;
   background-color: #2c3e50;
-  height: 170vh;
+  min-height: 100vh;
 }
 
 nav {
@@ -48,7 +48,6 @@ nav a.router-link-exact-active {
   
 }
 footer{
-  position: fixed;
   bottom: 0;
   color: white;
 }

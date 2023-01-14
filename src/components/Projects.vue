@@ -42,10 +42,10 @@ data() {
                 },
                 {
                 id:3,
-                title: 'Spinner',
-                image: '',
-                githubLink: 'https://github.com/Asandile26/spinner2.0.git',
-                netlifyLink: 'https://spinnertwo.netlify.app'
+                title: 'CSS MediaQuery',
+                image: 'https://i.postimg.cc/Dyt794zy/css-media2.png',
+                githubLink: 'https://github.com/Asandile26/ccs-media-querries.git',
+                netlifyLink: 'https://css-media-queryasandilelangeni.netlify.app'
                 },
                 {
                 id:4,
@@ -76,5 +76,8 @@ data() {
 } 
 .btn1, btn2{
     margin: 0 10px;
+}
+template{
+    height: 120vh;
 } 
 </style>
