@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <p>HELLO WORLD, I am</p>
-    <h1>ASANDILE LANGENI</h1>
-    <p>An Aspiring WEB DEVELOPER</p>
+    <p class="animate__animated animate__fadeIn animate__repeat-3">HELLO WORLD, I am</p>
+    <h1 class="animate__animated animate__fadeIn animate__repeat-3">ASANDILE LANGENI</h1>
+    <p class="animate__animated animate__fadeIn animate__repeat-3">An Aspiring WEB DEVELOPER</p>
   </div>
 </template>
 
@@ -50,5 +50,12 @@ h1, p{
   margin-right: 10rem;
 }
 }
+.my-element {
+  --animate-duration: 0.01s;
+}
+:root {
+  --animate-delay: 5s;
+}
+
 
 </style>

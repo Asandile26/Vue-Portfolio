@@ -48,7 +48,7 @@ export default {
              {id: 5,
               name: 'Gift Mahlangu',
               text: 'Asandile is a smart and reliable person, who is always on time in class and gives 100% effort to his work and projects. He is a great team player and is always available to assist his peers, and also works well on his own. He would be a great asset to any company.',
-              Image: 'https://i.postimg.cc/GpX6rJCy/Gift-Mahlangu.jpg'
+              Image: 'https://i.postimg.cc/L4CCZvjD/About-Gift.jpg'
              }
           ]
   }

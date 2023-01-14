@@ -18,7 +18,7 @@
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                 <label for="floatingTextarea">Comments</label>
                 </div>
-                <input type="submit" id="submit" placeholder="Submit" v-on:click.prevent="handleSubmit">
+                <input type="submit" id="submit" placeholder="Submit" v-on:click.prevent="handleSubmit" class="submit">
  
            
         </form>
@@ -84,5 +84,7 @@ form {
     .form{
         width: 18rem}
     };
-
+.submit{
+    color: rgb(7, 47, 7);
+}
 </style>

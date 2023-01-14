@@ -20,8 +20,8 @@
 .intro{
   display: flex;
   color:white;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
   /* flex-direction: column; */
 }
 /* .intro > div{
