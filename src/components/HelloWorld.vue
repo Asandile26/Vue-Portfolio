@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <p class="animate__animated animate__fadeIn animate__repeat-3">HELLO WORLD, I am</p>
-    <h1 class="animate__animated animate__fadeIn animate__repeat-3">ASANDILE LANGENI</h1>
-    <p class="animate__animated animate__fadeIn animate__repeat-3">An Aspiring WEB DEVELOPER</p>
+    <p>HELLO WORLD, I am</p>
+    <h1>ASANDILE LANGENI</h1>
+    <p>An Aspiring WEB DEVELOPER</p>
   </div>
 </template>
 
@@ -56,6 +56,19 @@ h1, p{
 :root {
   --animate-delay: 5s;
 }
+p, h1{
+animation: show;
+animation-duration: 5s;
+}
 
+@keyframes show {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transition: scale(1.5);
+  }
+  
+}
 
 </style>
