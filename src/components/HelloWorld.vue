@@ -50,7 +50,12 @@ h1, p{
   margin-right: 10rem;
 }
 }
-
+.my-element {
+  --animate-duration: 0.2s;
+}
+:root {
+  --animate-delay: 5s;
+}
 p, h1{
 animation: show;
 animation-duration: 5s;
