@@ -2,7 +2,7 @@
     <div class="Container-fluid">
     <h1>CONTACT</h1>
     <div class="container1-fluid">
-        <form class="form container" action="https://formspree.io/f/mgebedqd" method="post">
+        <form class="form container" action="https://formspree.io/f/mgebedqd" method="POST">
                 <div class="mb-3 text-center">
                 <input type="text" class="form-control" id="exampleInputName1" name="Name" aria-describedby="nameHelp" placeholder="Enter your name" required v-model="name">
                 </div>
@@ -18,7 +18,7 @@
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                 <label for="floatingTextarea">Comments</label>
                 </div>
-                <input type="submit" id="submit" placeholder="Submit" v-on:click.prevent="handleSubmit" class="submit">
+                <input type="submit" id="submit" placeholder="Submit" class="submit">
  
            
         </form>
